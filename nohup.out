@@ -1,0 +1,51 @@
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.102.4:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 185-270-690
+Traceback (most recent call last):
+  File "/Users/eranbarlevy/cv_bot/flight_app/app.py", line 415, in <module>
+    app.run(host='0.0.0.0', port=8000, debug=True)
+  File "/Users/eranbarlevy/anaconda3/lib/python3.11/site-packages/flask/app.py", line 922, in run
+    run_simple(t.cast(str, host), port, self, **options)
+  File "/Users/eranbarlevy/anaconda3/lib/python3.11/site-packages/werkzeug/serving.py", line 1059, in run_simple
+    run_with_reloader(
+  File "/Users/eranbarlevy/anaconda3/lib/python3.11/site-packages/werkzeug/_reloader.py", line 434, in run_with_reloader
+    ensure_echo_on()
+  File "/Users/eranbarlevy/anaconda3/lib/python3.11/site-packages/werkzeug/_reloader.py", line 414, in ensure_echo_on
+    termios.tcsetattr(sys.stdin, termios.TCSANOW, attributes)
+termios.error: (4, 'Interrupted system call')
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.102.4:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 185-270-690
+ * Serving Flask app 'app' (lazy loading)
+ * Environment: production
+   WARNING: This is a development server. Do not use it in a production deployment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://10.100.102.4:8000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (fsevents)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 185-270-690
